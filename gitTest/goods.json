@@ -1,0 +1,19 @@
+{
+"goods":
+[
+  {"id":1, "kind": 1, "img": "/static/imgs/goods/fruit.png", "title": "嘎啦果", "content": "果实鲜艳、肉质金黄，酸甜适口。", "price": 8 },
+  {"id":2, "kind": 1, "img": "/static/imgs/goods/水果2.png", "title": "芒果", "content": "中果皮肉质，肥厚，鲜黄色，味甜，果核坚硬。", "price": 13 },
+  {"id":3, "kind": 2, "img": "/static/imgs/goods/蔬菜.png", "title": "芦笋", "content": "不论清蒸或水煮，都足够自然美味。", "price": 9 },
+  {"id":4, "kind": 2, "img": "/static/imgs/goods/蔬菜2.png", "title": "荷兰豆", "content": "有趣的是“荷兰豆”在荷兰却叫“中国豆”。", "price": 10 },
+  {"id":5, "kind": 3, "img": "/static/imgs/goods/肉蛋.png", "title": "鸡腿", "content": "鸡腿儿，运动量大，肌肉较多，肉质细嫩鲜美。", "price": 16 },
+  {"id":6, "kind": 3, "img": "/static/imgs/goods/肉蛋2.png", "title": "牛排", "content": "按照家用做法来说最简单，也是最实用的。", "price": 35 },
+  {"id":7, "kind": 4, "img": "/static/imgs/goods/速冻.png", "title": "火腿", "content": "金华火腿传承千年，以咸香出名。", "price": 26 },
+  {"id":8, "kind": 4, "img": "/static/imgs/goods/速冻2.png", "title": "饺子", "content": "饺子，是中国传统食物。", "price": 37 },
+  {"id":9, "kind": 5, "img": "/static/imgs/goods/酒饮.png", "title": "科罗拉啤酒", "content": "科罗拉是墨西哥出名的啤酒，特别的是要加青檬，口感更好。", "price": 120 },
+  {"id":10, "kind": 5, "img": "/static/imgs/goods/酒饮2.png", "title": "维他饮料", "content": "休闲、清新、口感丰富的茶饮料", "price": 29 },
+  {"id":11, "kind": 6, "img": "/static/imgs/goods/乳品.png", "title": "真果粒", "content": "含多种维生素、矿物质、微量元素和水果膳食纤维的果粒。", "price": 70 },
+  {"id":12, "kind": 6, "img": "/static/imgs/goods/乳品2.png", "title": "卡士酸奶", "content": "原态酪乳 · 餐后一小时 · 双倍蛋白 ", "price": 33 },
+  {"id":13, "kind": 7, "img": "/static/imgs/goods/零食.png", "title": "巧克力圈", "content": "巧克力怎么做好吃", "price": 17 },
+  {"id":14, "kind": 7, "img": "/static/imgs/goods/零食2.png", "title": "酒鬼花生", "content": "香脆可口，下酒良品", "price": 6 }
+]
+}
