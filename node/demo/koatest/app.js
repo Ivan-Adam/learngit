@@ -1,3 +1,1 @@
-import koa from 'koa'
-const app=new koa()
-app.listen(8080)
+import './01koatest'
