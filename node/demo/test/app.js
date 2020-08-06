@@ -1,1 +1,2 @@
-import './01koatest'
+//import './01koatest'
+import './02route'
