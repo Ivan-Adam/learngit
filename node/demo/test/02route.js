@@ -1,5 +1,6 @@
 import Koa from 'koa'
 import Router from 'koa-router'
+// console.log("koa="+Koa)
 const app = new Koa()
 const router = new Router()
 //路由写法
@@ -119,4 +120,6 @@ app.use(db.routes()).use(db.allowedMethods())
 
 //重定向路由的挂载
 app.use(proxy.routes()).use(proxy.allowedMethods())
+console.log(router)
+
 app.listen(8082)
