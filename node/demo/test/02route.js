@@ -120,6 +120,7 @@ app.use(db.routes()).use(db.allowedMethods())
 
 //重定向路由的挂载
 app.use(proxy.routes()).use(proxy.allowedMethods())
-console.log(router)
+// 输出挂载的路由有哪些************************************
+//console.log(router)
 
 app.listen(8082)
