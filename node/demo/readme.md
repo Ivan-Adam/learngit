@@ -6,9 +6,9 @@
 
 
 
-![1596679201752](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1596679201752.png)
+![1596679201752](./static/1596679201752.png)
 
-![1596679400930](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1596679400930.png)![](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1596679463678.png)
+![1596679400930](D:\workspace\pretive\learngit\node\demo\static\1596679400930.png)![](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1596679463678.png)
 
 
 
