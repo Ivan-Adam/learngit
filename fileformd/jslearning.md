@@ -43,16 +43,37 @@
 > > 通过使用await，我们能够在三个promise的结果都可用的时候，放入values数组中。这看起来非常像同步代码。我们需要将所有代码封装在一个新的异步函数displayContent() 中，尽管没有减少很多代码，但能够将大部分代码从 .then() 代码块移出，使代码得到了简化，更易读。
 > > ```
 > >
-> > 
-> >
-> > 
->
->  
->
->  
->
->  
->
->  
->
 > 
+
+##  关于require   
+
+> ```
+> require的路径中不能包含有下划线，解决办法为
+> 
+> 
+> 
+> /**
+>  * 存在即合理     当require的路径中带有下划线时，需要采用绝对路径的方式来引入模块   
+>  */
+> const eventHandlerPath = path.join(__dirname, '11', '22_11','33');
+> //console.log("eventHandlerPath-=-=-=-=-=-=-=-=-=-=-=-=------->"+eventHandlerPath);
+> //output  d:\workspace\project\fujian_north_dry_1-beiqian-master\beiqian\gps-device\lib\event_handlers
+> const eventFiles = fs.readdirSync(eventHandlerPath);
+> eventFiles.forEach((fileName) => {
+>     const handlerFile = path.join(eventHandlerPath, fileName);
+>     // 通过绝对路径的方式来引入模块
+>     const handle = require(handlerFile);
+>     //handle()是通过读取文件名的方式来调用方法  
+>     handle();
+> });
+> 
+> 
+> 
+> output  恭喜你找到我了
+>```
+>  
+>
+>  
+>
+>  
+>
